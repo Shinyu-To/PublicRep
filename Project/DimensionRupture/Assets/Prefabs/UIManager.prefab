@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8733448489201973650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8733448489201973652}
+  - component: {fileID: 8733448489201973653}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8733448489201973652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8733448489201973650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8733448489201973653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8733448489201973650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb35fd297b927948b5d7da253c2583a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStatus: {fileID: 571211904, guid: 960f294c4d509e441a7a6f24876ef96f, type: 3}
+  nameText: {fileID: 1123450621356465638, guid: 94554660c1f3b994eba89dc64da64c90, type: 3}
+  levelText: {fileID: 737449443472693886, guid: c2a6e0be23ddaf54992a12076d6e517f, type: 3}
+  expText: {fileID: 8618641214474195357, guid: 1d50f2af40eb74c4b9d5f0852f965726, type: 3}
+  nextExpText: {fileID: 2937431997613508688, guid: c3ac24818cd46db42aaf238d0fbe1830, type: 3}
+  hpText: {fileID: 1625768667243541965, guid: c54110ec2001b874db84b1e40b044956, type: 3}
+  vitText: {fileID: 8718651353304188497, guid: 864d3a4ddd583694f93d2adb15cc4cca, type: 3}
+  strText: {fileID: 4938708395657786750, guid: 1a18f2b4e3bb49543bcc2b8a65e022b2, type: 3}
+  atkText: {fileID: 4848330359545268141, guid: 2313f1a31e9eb3443a243958b90fe93c, type: 3}
+  armText: {fileID: 2671285782327346238, guid: b5c83ee9bc9284645a5cc205a8d50fb8, type: 3}
+  spText: {fileID: 6240417349999226503, guid: 18b0065a0faeaf14fa21009a79a8ea1c, type: 3}
+  expSliderl: {fileID: 8250935864969008937, guid: 0561bb8193dc63f41a41468744ad9e9a, type: 3}
+  sliderText: {fileID: 8137570670283301187, guid: d268c05f98d0b044a97cb0c696d83f87, type: 3}
